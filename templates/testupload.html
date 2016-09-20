@@ -1,0 +1,39 @@
+{% load staticfiles %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test Upload</title>
+    <style>
+        *, *:before, *:after {
+            box-sizing: border-box;
+        }
+
+        .dropzone {
+            width: 90%;
+            height: 100px;
+            margin: 0 10px;
+            border: 1px black dashed;
+            position: absolute;
+        }
+
+        .progressIndicator {
+            width: 0;
+            height: 100%;
+            background: green;
+        }
+
+    </style>
+</head>
+<body>
+<div class="dropzone">
+    <div class="progressIndicator"></div>
+</div>
+<script src="{% static 'jquery/dist/jquery.min.js' %}"></script>
+<script src="{% static 'jquery.ui.widget/jquery.ui.widget.js' %}"></script>
+<script src="{% static 'blueimp-file-upload/js/jquery.fileupload.js' %}"></script>
+<script src="{% static 'testupload.js' %}"></script>
+</body>
+</html>
+

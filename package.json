@@ -1,0 +1,16 @@
+{
+  "name": "firefoxuploadcrash",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "blueimp-file-upload": "9.12.5",
+    "jquery": "2.2.4",
+    "jquery.ui.widget": "1.10.3"
+  }
+}
