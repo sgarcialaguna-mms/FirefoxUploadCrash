@@ -1,1 +1,1 @@
-Small project to demonstrate a bug in Firefox
+Small project to demonstrate a possible bug in Firefox
