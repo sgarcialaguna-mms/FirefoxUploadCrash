@@ -1,4 +1,4 @@
-var uploadUrl = '/upload_files/'
+var uploadUrl = 'http://127.0.0.1:8000'
 var uploadedFilesCount = 0
 var totalFilesCount = 0
 var $progressIndicator = $('.progressIndicator')
